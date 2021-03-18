@@ -4,28 +4,86 @@
     <title> My Website </title>
     <link href="Style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-    <ul class="Menu">
-        <li class="links"> Home </li>
-        <li class="links"> My videos</li>
-        <li class="links"> work </li>
-        <li class="links"> articles </li>
-        <li class="links"> Contact</li>
 
-    </ul>
-    <section Id="welcome">
-        <div class="inner"> <img src="20171226_141903.jpg" class="Profile">
-            <h1> Abhiram Madineedi </h1>
-        </div>
-    </section>
-    <section id="bio">
-        <h1> Bio </h1>
-        <div class="line">
-        </div>
-        <p>My name is Abhiram Madineedi and i am 11 years old. I am going to 6th grade in middle school. I live in Cypress, Calfornia. My family is from india.</p>
-    </section>
+<body>
+
+        <center>
+            <ul class="menu">
+                <li class="links"> <a href="#welcome"> Home </a></li>
+                <li class="links"> <a href="#video"> My videos </a></li>
+                <li class="links"> <a href="#work"> work </a> </li>
+                <li class="links"> <a href="#articles"> articles</a> </li>
+                <li class="links"> <a href="#contect"> Contact</a></li>
+            </ul>
+        </center>
+        <section Id="welcome">
+            <div class="inner"> <img src="20171226_141903.jpg" class="Profile">
+                <h1> Abhiram Madineedi </h1>
+            </div>
+        </section>
+        <section id="bio">
+            <h1> Bio </h1>
+            <div class="line">
+            </div>
+            <center><p>My name is Abhiram Madineedi and i am 11 years old. I am going to 6th grade in middle school. I live in Cypress, Calfornia. My family is from india.</p> </center>
+        </section>
+        <section id="video">
+            <h1> My videos</h1>
+            <div class="line"></div> <br>
+            <iframe width="877" height="493" src="https://www.youtube.com/embed/qUUloBe5vEo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="articles">
+            <h1> Articles</h1>
+            <div class="line"></div> <br> <a href="https://hubblesite.org/contents/news-releases/2021/news-2021-09" class="articles" target="_blank"> Hubble Telescope </a> <br> <br> <iframe src="https://hubblesite.org/contents/news-releases/2021/news-2021-08" width="670" height="490"> </iframe>
+        </section>
+        <section id="work">
+            <h1> My works</h1>
+            <div class="line"></div> <br> <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/JwZXSeYESHaX6vqggJImxuEb5V--ySSZQ9ToDUu8fWR/embed?nosource"></iframe>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/fo_V2Le3CO6JLx3Q3vEJkXnnRmiiUdvhFdeUQhq8S-A/embed?nosource"></iframe>
+            <br>
+
+            <h1> My games</h1>
+            <div class="line"> </div> <br>
+            <div id="mycarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center> <a href="https://studio.code.org/projects/playlab/LHA-HSU9svls2alZLmMMeghlmkcmMc-B0DFsLMtc_ug" target="_blank"> <img src="https://studio.code.org/v3/files/LHA-HSU9svls2alZLmMMeghlmkcmMc-B0DFsLMtc_ug/.metadata/thumbnail.png"> </a>
+                            <div class="carousel content">
+                                <p>Math Quiz</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center> <a href="https://studio.code.org/projects/playlab/Hu6_emPZf5X7Ae_YHeOYpRbCNa3nnV4xSNx6-0RBn04" target="_blank"> <img src="https://studio.code.org/v3/files/Hu6_emPZf5X7Ae_YHeOYpRbCNa3nnV4xSNx6-0RBn04/.metadata/thumbnail.png"> </a> 
+                        <div class="carousel content"><p> Bird hunting for a pie</p></div>
+                        </center>
+                    </div>
+                </div>
+            <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#mycarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+            </div>
+            <br>
+            <h1> My Chat Bots</h1>
+            <div class="line"></div> <br> <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/3d787e7b-4911-4ffd-ae8b-70ea3d6e5c74">
+            </iframe>
+        </section>
+        <section id="contect"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.130588611274!2d-118.06309482013471!3d33.808942931721994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2e8bba7ba713%3A0xe09d06bcc71bbd78!2sMcAuliffe%20Middle%20School!5e0!3m2!1sen!2sus!4v1615857647419!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div id="contect1"><a href="mailto:abhimadineedi@gmail.com?subject=hello"><i class="fa fa-envelope"></i>
+                    <h3> abhimadineedi@gmail.cim</h3>
+                </a></div>
+        </section>
+
 </body>
+
 
 </html>
